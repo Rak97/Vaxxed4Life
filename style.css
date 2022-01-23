@@ -1,6 +1,6 @@
 :root {
   --main-font-family: "Spinnaker", sans-serif;
-  --border-box-color-line: 1px solid #000000;
+  --border-box-color-line: 1px solid white;
 }
 
 .contain {
