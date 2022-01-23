@@ -90,4 +90,7 @@ input#search-form.form-control {
   .form-label {
     margin-bottom: 0.5rem;
   }
+  .col-6 {
+    display: none;
+  }
 }
