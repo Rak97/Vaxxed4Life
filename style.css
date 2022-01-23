@@ -17,11 +17,14 @@ h1 {
   font-family: var(--main-font-family);
   font-size: 42px;
 }
-
+h6 {
+  text-align: center;
+  font-family: var(--main-font-family);
+}
 .begin {
   display: block;
   text-align: center;
-  padding: 70px 20px;
+  padding: 75px 25px;
 }
 
 .container {
@@ -49,5 +52,14 @@ button {
   }
   button {
     font-size: 13px;
+  }
+  h6 {
+    font-size: 13px;
+  }
+  container {
+    font-size: 13px;
+  }
+  .form-label {
+    margin-bottom: 0.5rem;
   }
 }
