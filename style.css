@@ -1,0 +1,31 @@
+.contain {
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 15px 60px;
+  height: 95px;
+  border: 1px solid rgba(0, 0, 0, 1);
+  background-color: #f4ffd3;
+}
+h1 {
+  text-align: center;
+  font-family: "Spinnaker", sans-serif;
+  font-size: 42px;
+}
+.begin {
+  display: block;
+  text-align: center;
+  padding: 70px 20px;
+}
+.container {
+  font-family: "Spinnaker", sans-serif;
+}
+p {
+  font-family: "Spinnaker", sans-serif;
+  font-size: 13px;
+}
+@media (max-width: 960px) {
+  h1 {
+    font-size: 35px;
+    padding: 0.5rem;
+  }
+}
