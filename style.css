@@ -8,7 +8,6 @@
   margin: 0 auto;
   padding: 15px 60px;
   height: 95px;
-  border: var(--border-box-color-line);
   background-color: #f4ffd3;
 }
 
@@ -44,23 +43,33 @@ button {
   margin: 0 auto;
   background-color: rgba(196, 196, 196, 1);
 }
+
+button#vaxlocate.icon {
+  color: #9b9a9f;
+  box-shadow: none;
+  border: none;
+  background-color: transparent;
+}
+
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 200px;
+  font-family: var(--main-font-family);
 }
 
-input.form-control {
+input#search-form.form-control {
   border: var(--border-box-color-line);
   outline: none;
   padding: 0.5em 1em;
   border-radius: 24px;
   margin-top: 1.5rem;
+  margin: 0 auto;
+  max-width: 400px;
   color: black;
   font-size: 20px;
   text-align: center;
-  font-family: var(--main-font-family);
   background: #f0f0f0;
 }
 
