@@ -78,24 +78,7 @@ input#search-form.form-control {
   left: 155px;
 }
 
-@media (max-width: 960px) {
-  h1 {
-    font-size: 35px;
-    padding: 0.5rem;
-  }
-  button {
-    font-size: 13px;
-  }
-  h6 {
-    font-size: 13px;
-  }
-  container {
-    font-size: 13px;
-  }
-  .form-label {
-    margin-bottom: 0.5rem;
-  }
-  .col-6 {
-    display: none;
-  }
+input#formFileMultiple.form-control {
+  position: relative;
+  top: 0.5rem;
 }
