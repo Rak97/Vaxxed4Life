@@ -17,6 +17,7 @@ h1 {
   font-size: 42px;
 }
 h6 {
+  padding-top: 1.5rem;
   text-align: center;
   font-family: var(--main-font-family);
 }
@@ -81,4 +82,13 @@ input#search-form.form-control {
 input#formFileMultiple.form-control {
   position: relative;
   top: 0.5rem;
+}
+
+.syringe {
+  -ms-transform: rotate(20deg); /* IE 9 */
+  transform: rotate(20deg);
+    position: relative;
+  left: 200px;
+  bottom: 75px;
+  height: 150px;
 }
