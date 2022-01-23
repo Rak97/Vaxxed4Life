@@ -49,6 +49,9 @@ button#vaxlocate.icon {
   box-shadow: none;
   border: none;
   background-color: transparent;
+  position: relative;
+  right: 225px;
+  bottom: 25px;
 }
 
 .center {
@@ -71,6 +74,8 @@ input#search-form.form-control {
   font-size: 20px;
   text-align: center;
   background: #f0f0f0;
+  position: relative;
+  left: 155px;
 }
 
 @media (max-width: 960px) {
